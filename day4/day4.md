@@ -131,3 +131,61 @@
 
     - 전역 변수명을 사용해도 되지만 그럴경우 다른 객체에 복사한후 전혀 다른값이 덮어져있을때 원하지 않는 값이 나올 수 있음
 
+## new 연산자
+
+- 생성자 함수
+
+    - 두가지 관례가 있음
+
+        - 이름 시작은 대문자
+
+        - new연산자 붙여야됨
+
+- 생성자와 return문
+
+    - 객체를 return 한다면 this 대신 객체가 반환
+
+    - 원시형을 return한다면 return문이 무시
+
+
+## 옵셔널 체이닝
+
+1. ?. 을 사용하면 프로퍼티가 없는 객체에 에러 없이 안전하게 접근이 가능하다.
+- user && user.address && user.address.street
+- user?.address?.street
+2. ?. : 해당 객체가 undefined 이나 null이면 평가를 멈추고 undefined를 반환한다.
+3. 옵셔널체이닝은 존재하지 않아도 괜찮은 대상에만 사용하는 것이 바람직하다.
+4. ?.은 연산자가 아닌 특별한 문법 구조체(Sysnatx construct) 이다.
+5. delete와 조합하여 사용 가능하다.
+- delete user?.name
+6. 읽기나 삭제에는 사용가능하지만, 쓰기에는 사용 불가능하다.
+- user?.name = "Violet"; // SyntaxError: Invalid left-hand side in assignment
+7. 옵셔널 체이닝(?.) 사용방식 4가지
+- obj?.prop : obj가 존재하면 prop 반환, 없으면 undefined 반환
+- obj?.[prop] : obj가 존재하면 prop 반환, 없으면 undefined 반환
+- obj?.method() : obj가 존재하면 method()호출, 아니면 undefined 반환
+- obj.method?.() : obj의 메서드 method가 존재하면 메소드 실행, 아니면 undefined 반환
+
+
+## 심볼
+
+- 유일한 식별자를 만들고 싶을 때 사용
+
+- 숨김 프로퍼티
+
+    - 심볼을 이용하여 숨김 프로퍼티를 만들 수 있습니다. 숨김 프로퍼티는 외부 코드에서 접근이 불가능하고 값도 덮어쓸수 없다.
+
+
+## 객체의 형변환
+
+- string
+
+    - alert 함수같이 문자열을 기대하는 연산을 수행할때는 hint가 string이 된다.
+
+- number
+
+    - 수학 연산을 적용하려 할때 hint는 number가 된다.
+
+- default
+
+    - 연산자가 기대하는 자료형이 확실하지 않을때 default가 된다.
