@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span>클릭횟수: 0</span>
+    <button id="btn">[Click me]</button>
+
+</body>
+    <script>
+        const button = document.getElementById('btn');
+        const span = document.querySelector('span');
+        let cnt = 0;
+
+        function handleclick(){
+            cnt = cnt + 1;
+            span.innerText = `너가 누른 횟수 ${cnt}`;
+        }
+        button.addEventListener("click", handleclick);
+    </script>
+</html>
