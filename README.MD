@@ -29,3 +29,10 @@
   - HTML 파일에 React js, ReactDOM, JSX 연결
   - 이벤트 동작들 실습
 
+### Day 6 (js 함수 심화 학습)
+
+  - 함수를 재귀, 클로저, 렉시컬 환경을 통한 변수 스코프 활용
+  - setTimeout, setInterval로 비동기 실행, 화살표 함수는 this와 arguments x
+  - call, apply등 캐싱
+  - 프로퍼티 사용, new Function
+  

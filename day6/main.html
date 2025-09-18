@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>day6</h1>
+    <script>
+        // function pow(x, n) {
+        //     alert(x)
+        //     return (n == 1) ? x : (x * pow(x, n-1));
+        // }
+
+        // pow(5, 5)
+
+
+        // function sumTo(n) {
+        //     let ans = 0;
+        //     for (let i = n; i > 0; i--) {
+        //         ans = ans + i
+        //     }
+        //     alert(ans)
+        // }
+
+
+        // function sumTo(n) {
+
+        //     return (n==1) ? 1 : (n + sumTo((n-1)));
+        // }
+
+        // alert(sumTo(100))
+
+
+        // function sumTo(n) {
+            
+        //     return (n + 1) * (n / 2)
+        // }  
+        // alert(sumTo(3))
+
+        let list = {val:1,
+            next: {val:2,
+            next: {val:3,
+            next: {val:4,
+            next: null
+            }
+            }
+            }
+        }
+
+        // function printList(list) {
+        //     let tmp = list;
+
+        //     while (tmp){
+        //         alert(tmp.val);
+        //         tmp = tmp.next;
+        //     }
+        // }
+
+        // function printList(list){
+        //     let tmp = list;
+
+        //     alert(tmp.val);
+
+        //     printList(tmp.next);
+        // }
+
+
+        // function printList(list){
+            
+        //     if (list.next) {
+        //         printList(list.next)
+        //     }
+        //     alert(list.val)
+        // }
+
+        // printList(list);
+
+        // function shownaem (abn) {
+        //     alert(abn)
+        //     for (let arg of arguments) alert(arg);
+        // }
+
+        // shownaem('aa','bb','cc', 'dd', 'ee')
+
+        // let arr1 = [1,2,3,4];
+        // let arr2 = [5,6,7,8];
+
+        // alert(Math.max(...arr1, ...arr2))
+
+
+        // function makecounter() {
+        //     let cnt = 0;
+
+        //     return function() {
+
+        //         return ++ cnt;
+        //     };
+
+        // }
+
+        // let aaa = makecounter();
+
+        // alert(aaa());
+        // alert(aaa());
+        // alert(aaa());
+
+
+        // function sum(a){
+
+        //     return function(b) {
+        //         return function(c) {
+        //             return a+b+c
+        //         }
+        //     }
+        // }
+
+        // alert(sum(1)(2)(3) )
+
+        // function makecounter () {
+        //     let cnt = 0;
+
+        //     function counter() {
+        //         return cnt++;
+        //     }
+
+        //     counter.set = value => cnt = value;
+
+        //     counter.decrease = () => cnt--;
+
+        //     return counter;
+        // };        
+
+        // const a = makecounter();
+
+        // alert(a());
+        // alert(a());
+        // alert(a());
+        // a.decrease();
+        // alert(a());
+        // alert(a());
+        // alert(a());
+        // a.set(50);
+        // alert(a());
+        // a.decrease();
+        // alert(a());
+        // alert(a());
+
+
+        // let func = new Function('a', 'b', 'return 2*(a+b+a+b)')
+
+        // alert(func(1, 2));
+
+        // function sayhi(who, aa) {
+        //     alert(who + " heheheh " + aa);
+        // }
+
+        // setTimeout(sayhi, 1000, 'taek', '!!');
+
+
+        // let timerID = setInterval(() => alert("gd"), 2000 ); 
+
+        // setTimeout(() => {clearInterval(timerID); alert("정지");}, 10000);
+
+        // function printNumbers(a, b){
+        //     let cnt = a;
+
+        //     let timeid = setInterval(function(){
+        //         alert(cnt);
+        //         if (cnt == b){
+        //             clearInterval(timeid)
+        //         }
+        //         cnt ++;
+
+        //     }, 1000);
+
+        // }
+
+
+        // printNumbers(1, 10);
+    </script>
+</body>
+</html>
