@@ -168,3 +168,15 @@
 - arguments 지원 안함
 
 - new와 함께 호출 안됨
+
+# React 실습
+
+React.useState() 배열에서
+보통 데이터에는 counter처럼 원하는대로 붙이고
+f는 set 뒤에 데이터 이름을 붙임 (setCounter)
+어떤값을 부여하던 setCounter 함수는 그 값으로 업데이트하고 리렌더링 일으킴
+1. counter라는 데이터를 받음
+2. return()에 그 데이터를 담고 있음 (리턴은 사용자가 보게될 컴포넌트)
+3. 버튼이 클릭되면 counter값을 바꿔줄 함수 호출 -> setCounter
+4. counter의 새로운 값을 가지고 counter 함수를 호출
+5. 그 새로운 값은 setCounter(counter + 1)에 써준 counter + 1
