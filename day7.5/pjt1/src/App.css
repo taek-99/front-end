@@ -1,0 +1,106 @@
+:root {
+  --bg: #0f172a;           /* 배경 */
+  --panel: #111827;        /* 보드 배경 */
+  --border: #374151;       /* 칸 구분선 */
+  --text: #e5e7eb;         /* 기본 글자색 */
+  --accent: #60a5fa;       /* 포커스/호버 */
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  background: var(--bg);
+  color: var(--text);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+/* 전체 레이아웃 */
+.game {
+  display: grid;
+  grid-template-columns: auto 220px;
+  gap: 24px;
+  padding: 24px;
+}
+
+.game-board {
+  background: var(--panel);
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0,0,0,.35);
+}
+
+.game-info {
+  background: var(--panel);
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0,0,0,.35);
+  max-height: 360px;
+  overflow: auto;
+}
+
+.status {
+  font-weight: 700;
+  margin-bottom: 12px;
+  letter-spacing: 0.2px;
+}
+
+/* 보드 행 */
+.board-row {
+  display: flex;
+}
+
+/* 칸(Square) */
+.square {
+  width: 96px;
+  height: 96px;
+  display: grid;
+  place-items: center;
+  font-size: 52px;
+  font-weight: 800;
+  background: #0b1220;
+  border: 1px solid var(--border);
+  color: var(--text);
+  cursor: pointer;
+  transition: transform .08s ease, box-shadow .15s ease, background .2s ease, border-color .2s ease;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,.35);
+  border-color: var(--accent);
+}
+
+.square:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+/* info의 점프 버튼 */
+.game-info button {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 6px 0;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: #0b1220;
+  color: var(--text);
+  cursor: pointer;
+  transition: background .15s ease, border-color .15s ease, transform .08s ease;
+}
+
+.game-info button:hover {
+  border-color: var(--accent);
+}
+
+.game-info ol {
+  margin: 0;
+  padding-left: 18px;
+}
