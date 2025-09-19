@@ -36,3 +36,22 @@
   - call, apply등 캐싱
   - 프로퍼티 사용, new Function
   
+### Day 7 (React 실습)
+
+  - 다양한 이벤트 사용
+  - React 라이브러리 설치하여 사용
+  - 컴포넌트 생성
+
+
+
+
+
+
+
+
+============================================================
+
+## React CDN 연결 링크
+  - https://unpkg.com/react@17.0.2/umd/react.production.min.js
+  - https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js
+  - https://unpkg.com/@babel/standalone/babel.min.js
