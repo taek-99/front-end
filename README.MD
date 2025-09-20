@@ -51,7 +51,12 @@
 
 ============================================================
 
-## React CDN 연결 링크
+## React 연결 방법
+
+- CDN
   - https://unpkg.com/react@17.0.2/umd/react.production.min.js
   - https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js
   - https://unpkg.com/@babel/standalone/babel.min.js
+
+- React Vite
+  - npm create vite@latest
