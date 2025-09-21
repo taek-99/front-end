@@ -42,10 +42,19 @@
   - React 라이브러리 설치하여 사용
   - 컴포넌트 생성
 
+## 2주차 (React & vite 기초)
+
+### Day 8 (React 실습)
+
+  - 컴포넌트 순수하게 유지하기
+  - useState 사용하여 상호작용 추가
+  - 렌더링 과정 학습
 
 
+### Day 9 (React 실습)
 
-
+  - 
+  - 9x9 오목판 만들기
 
 
 
@@ -60,3 +69,8 @@
 
 - React Vite
   - npm create vite@latest
+
+- propType 설정
+
+  - npm install prop-types
+  - import PropTypes from "prop-types";
