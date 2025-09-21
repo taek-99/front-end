@@ -1,0 +1,48 @@
+body {
+  display: grid;
+  place-content: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+  height: 100%;
+}
+
+.board {
+  display: grid;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #333;
+  border-radius: 0;
+  background: #fafafa;
+  cursor: pointer;
+}
+
+
+.square.selected {
+  background: tomato;
+  color: white;
+  border-color: tomato;
+}
+
+.Btn {
+  background : rgba(21, 151, 237, 0.463);
+  color: white;
+  padding: 10px 20px;
+  border: 0;
+  border-Radius: 20;
+}
+
+.square.in-path {
+  background: royalblue;
+  color: white;
+  border-color: royalblue;
+}
