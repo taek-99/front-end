@@ -53,8 +53,9 @@
 
 ### Day 9 (React 실습)
 
-  - 
-  - 9x9 오목판 만들기
+  - 인자 전달시 children방식과 props방식의 차이
+  - 3x3~6x6의 최단거리 시뮬레이션 제작
+  - toggle 버튼, locked거는법 학습
 
 
 

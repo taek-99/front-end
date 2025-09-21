@@ -120,7 +120,7 @@ function App() {
         setLocked(false)
         setPathSet(new Set()); // 경로 없음
         return;
-    }``
+    }
 
     // 경로 복원
     const path = [];
