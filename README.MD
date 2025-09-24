@@ -68,6 +68,13 @@
   - 명령형 UI와 선언형 UI 학습
   - 이번에야말로 오목판 만들어보기 도전
 
+### Day 12 (React 실습)
+
+  - 리엑트 라우터 설치 후 페이지 전환
+  - async-await 방식 활용하여 url에서 데이터 받아오는법 학습
+  - 간이 영화 페이지 제작
+
+
 ============================================================
 
 ## React 연결 방법
@@ -84,3 +91,8 @@
 
   - npm install prop-types
   - import PropTypes from "prop-types";
+
+- 리엑트 라우터 실행
+
+  - npm install react-router-dom
+  - npm i react-router-dom@5.3.0
