@@ -75,6 +75,11 @@
   - 간이 영화 페이지 제작
 
 
+### Day 13(React 실습)
+
+  - 이전 간이 영화페이지 복습
+  - github에 deploy 진행
+  
 ============================================================
 
 ## React 연결 방법
@@ -95,4 +100,9 @@
 - 리엑트 라우터 실행
 
   - npm install react-router-dom
-  - npm i react-router-dom@5.3.0
+
+- github 페이지 업로드
+
+  - npm i gh-pages
+
+  - npm run build
