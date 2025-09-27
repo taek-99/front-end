@@ -79,6 +79,13 @@
 
   - 이전 간이 영화페이지 복습
   - github에 deploy 진행
+
+### Day 14(React 실습)
+
+  - 음식 랭킹 추천 시스템 제작
+  - 로그인폼 bootstrap form을 활용하여 제작
+  - 구조 쪼개기 연습
+  
   
 ============================================================
 
@@ -106,3 +113,11 @@
   - npm i gh-pages
 
   - npm run build
+
+- React Hook Form
+
+  - npm install react-hook-form
+
+- React Bootstrap
+
+  - npm install react-bootstrap bootstrap
