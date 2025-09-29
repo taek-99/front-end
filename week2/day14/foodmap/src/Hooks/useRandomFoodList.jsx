@@ -1,7 +1,7 @@
 import { useEffect, useState, useTransition } from "react";
 
 
-function useFoodList() {
+function useRandomFoodList() {
     const [isPending, startTransition] = useTransition();
     const [foodListData, setFoodListData] = useState([]);
 
@@ -27,4 +27,4 @@ function useFoodList() {
 }
 
 
-export default useFoodList
+export default useRandomFoodList

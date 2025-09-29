@@ -10,7 +10,6 @@ function Foodlist() {
     return(
         <div>
         {isPending ? "음식 로딩중...." : <FoodListRender foodList={foodListData}/>}
-        
     </div>
     );
 }
