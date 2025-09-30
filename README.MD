@@ -87,13 +87,18 @@
 
 ## 3주차 (type스크립트 기초 & 리엑트 복습)
 
-### Day 15(TypeScript 학습)
+### Day 15(TypeScript 기초)
 
   - 기초 문법 학습
   - TypeScript 실행 방법
   - 자바스크립트와의 차이 학습
-  - readonly, tuple, void, 
+  - readonly, tuple, void,
   
+### Day 16(TypeScript 학습)
+
+  - 오버로딩과 제네릭
+  - 제네릭 사용법
+  - 제네릭과 any의 차이
   
 ============================================================
 
