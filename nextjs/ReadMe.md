@@ -8,7 +8,7 @@
 - npm init -y
 - package.json 파일의 라이센스 MIT로 변경
 - npm install react@latest next@latest react-dom@latest
-<!-- - npx create-next-app@latest my-app -->
+- npx create-next-app@latest .
 - package.json 파일의 script 부분 "dev": "next dev"로 변경
 - app 폴더에 page.tsx 만들기
 
@@ -23,3 +23,14 @@
 브라우저의 요청이 있을 때마다 서버에서 HTML을 생성하고, 반환함
 
 - Next.js에서 모든 컴포넌트와 페이지들은 먼저 서버에서 렌더됨
+
+## use client
+- 서버와 클라이언트 컴포넌트 모듈 간의 경계를 선언하는 데 사용
+-  하위 컴포넌트를 포함하여 해당 파일로 가져온 다른 모든 모듈이 클라이언트 번들의 일부로 간주
+
+## Layout
+- Navbar나 footer같은 모든 페이지에 공통으로 필요한 부분들을 Layout으로 빼서 관리 가능
+
+## metadata
+- Layout과 비슷하지만 metadata로 중첩되는 요소는 병합되어 나타남
+- template와 default값 설정 가능
