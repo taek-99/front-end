@@ -7,7 +7,7 @@
   - var, let, const 차이 이해  
   - 기본 자료형(number, string, boolean, null, undefined, symbol)  
   - 동적 타이핑 특성 확인  
-
+  
 ### Day 2 (조건문 & 반복문)
   - if, switch 문 차이  
   - for, while, for...of, for...in  
