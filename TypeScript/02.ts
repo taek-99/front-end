@@ -12,8 +12,8 @@
 
 // const playerMager = (name: string): player => ({name})
 // const nico = playerMager("nico")
-
-
+  
+  
 const player: [string, number, boolean] = ["tt", 1, true]
 
     
